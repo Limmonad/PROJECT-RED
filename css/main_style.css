@@ -1,0 +1,262 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-size: 100%;
+}
+
+/* Первый блок на сайте  */
+.menu {
+  background-color: #c52314;
+  background-image: url(../img/photo_on_menu.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.container_menu {
+  width: 1011px;
+  margin: 0 auto;
+  padding-bottom: 80px;
+}
+.nav_menu {
+  padding-top: 37px;
+  display: flex;
+  justify-content: space-between;
+}
+.logo_in_menu {
+}
+.nav {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+}
+.nav li:nth-child(-n + 4) {
+  padding-right: 21px;
+}
+.nav li a {
+  color: white;
+  font-size: 18px;
+  font-family: "Montserrat";
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 12px 12px;
+  font-weight: 800;
+  line-height: 22px;
+}
+.nav li a:hover {
+  background-color: #130e27;
+  border-radius: 5px;
+}
+/* ----------2 блок -------- к Меню */
+.info_menu {
+  margin-top: 158px;
+  text-align: left;
+  max-width: 550px;
+}
+.info_title {
+  font-size: 90px;
+  font-family: "Montserrat";
+  color: rgb(19, 14, 39);
+  font-weight: bold;
+  line-height: 80px;
+  text-transform: uppercase;
+  margin: 0;
+}
+.info_title span {
+  color: aliceblue;
+}
+.text_title {
+  margin: 40px 0 0 0;
+  font-size: 20px;
+  font-family: "PTSerif";
+  color: rgb(255, 255, 255);
+  line-height: 28px;
+}
+
+/* ------------------------------------------------------------------------
+ПЕРЕХОД К 2 БЛОКУ, А ИМЕННО, ИНФОРМАЦИЯ О СЕРВИСАХ */
+
+/* 1 Блок наши сервисы */
+.services {
+  background-color: #ffffff;
+}
+.container_services {
+  width: 1011px;
+  margin: 0 auto;
+}
+.title_services {
+  text-align: left;
+  font-size: 50px;
+  font-family: "Couture";
+  color: #130e27;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0;
+  padding-top: 44px;
+}
+.title_services span {
+  color: #c62314;
+}
+.item_services {
+  margin-top: 85px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 60px;
+  text-align: center;
+}
+.item {
+  max-width: 200px;
+}
+.icon_services {
+  margin-bottom: 50px;
+}
+.text_services {
+  font-size: 20px;
+  font-family: "Myriad Pro";
+  color: #161616;
+  line-height: 28px;
+}
+.fa {
+  font-size: 100px;
+}
+/* 3 блок кликер */
+/* ---------------------------------------------------------------------- */
+
+.click_info {
+  background-color: #130e27;
+}
+.click_container {
+  width: 1011px;
+  margin: 0 auto;
+}
+.click_inner {
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+  align-items: center;
+}
+.click_text {
+  max-width: 601px;
+  font-size: 20px;
+  font-family: "PTSerif";
+  color: rgb(255, 255, 255);
+  line-height: 28px;
+  padding: 41px 13px;
+}
+.click_link {
+  font-size: 22px;
+  font-family: "Montserrat";
+  max-width: 269px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px 40px;
+  background-color: #c62314;
+  border: 2px #c62314 solid;
+  border-radius: 5px;
+  font-weight: 800;
+}
+.click_link:hover {
+  cursor: pointer;
+}
+/* 4 блок Цена */
+/* ---------------------------------------------------------------------- */
+
+.pricing {
+  background-color: #efefef;
+}
+.container_pricing {
+  width: 1011px;
+  margin: 0 auto;
+}
+.pricing_inner {
+}
+.pricing_title {
+  font-size: 50px;
+  font-family: "Montserrat";
+  color: rgb(19, 14, 39);
+  font-weight: bold;
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 80px;
+  padding: 66px 0;
+}
+.card_pricing {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 63px;
+}
+.item_pricing {
+  background-color: #ffffff;
+  text-align: center;
+  border-radius: 5px;
+  min-width: 318px;
+}
+.item_title_pricing {
+  font-size: 22px;
+  font-family: "PTSerif";
+  color: rgb(22, 22, 22);
+  line-height: 28px;
+  padding-top: 35px;
+  text-transform: capitalize;
+}
+
+.item_title_pircing1 {
+  font-size: 60px;
+  font-family: "Montserrat";
+  color: rgb(198, 35, 20);
+  font-weight: bold;
+  line-height: 80px;
+  text-transform: uppercase;
+  margin: 45px 0 0 0;
+}
+
+.item_title_pircing2 {
+  font-size: 20px;
+  font-family: "PTSerif";
+  color: rgb(22, 22, 22);
+  line-height: 28px;
+  text-transform: capitalize;
+  margin: 33px 0 0 0;
+}
+
+.link_pricing {
+  display: flex;
+  justify-content: center;
+  background-color: #130e27;
+  margin: 59px 42px 8px;
+  color: #ffffff;
+  border-radius: 5px;
+  font-size: 22px;
+  font-family: "Montserrat";
+  line-height: 28px;
+  text-transform: uppercase;
+  padding: 17px 0;
+}
+.link_pricing:hover {
+  background-color: #c62314;
+  cursor: pointer;
+}
+
+/* 5 БЛОК. FOOTER; */
+/* ---------------------------------------------------------------------- */
+.footer {
+  background-color: #130e27;
+}
+.footer_container {
+  width: 1011px;
+  margin: 0 auto;
+}
+.inner_footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 61px 0;
+}
+.text_footer_inner {
+  font-size: 20px;
+  font-family: "PTSerif";
+  color: rgb(255, 255, 255);
+  line-height: 22px;
+}
